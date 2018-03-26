@@ -2,10 +2,10 @@ package rocks.yourapp.mymotorcycleevent.cache
 
 import android.arch.persistence.room.Database
 import android.arch.persistence.room.RoomDatabase
-import rocks.yourapp.mymotorcycleevent.cache.post.dao.MediaDao
-import rocks.yourapp.mymotorcycleevent.cache.post.models.MediaCacheModel
-import rocks.yourapp.mymotorcycleevent.cache.post.dao.PostDao
-import rocks.yourapp.mymotorcycleevent.cache.post.models.PostCacheModel
+import rocks.yourapp.mymotorcycleevent.cache.posts.dao.MediaDao
+import rocks.yourapp.mymotorcycleevent.cache.posts.model.MediaCacheModel
+import rocks.yourapp.mymotorcycleevent.cache.posts.dao.PostDao
+import rocks.yourapp.mymotorcycleevent.cache.posts.model.PostCacheModel
 
 @Database(
         entities = [

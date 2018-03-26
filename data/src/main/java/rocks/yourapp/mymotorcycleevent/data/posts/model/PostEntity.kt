@@ -1,6 +1,8 @@
-package rocks.yourapp.mymotorcycleevent.cache.post.models
+package rocks.yourapp.mymotorcycleevent.data.posts.model
 
-data class Event(
+data class PostEntity(
+        val id: Long,
+        var description: String = "",
         var name: String = "",
         var date: String = "",
         var site: String = "",
@@ -13,5 +15,6 @@ data class Event(
         var stateId: Long = 0L,
         var countryId: Long = 0L,
         var latitude: String = "",
-        var longitude: String = ""
+        var longitude: String = "",
+        var synced: Boolean = false
 )

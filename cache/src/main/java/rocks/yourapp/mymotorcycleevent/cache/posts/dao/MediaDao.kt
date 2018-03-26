@@ -1,7 +1,7 @@
-package rocks.yourapp.mymotorcycleevent.cache.post.dao
+package rocks.yourapp.mymotorcycleevent.cache.posts.dao
 
 import android.arch.persistence.room.*
-import rocks.yourapp.mymotorcycleevent.cache.post.models.MediaCacheModel
+import rocks.yourapp.mymotorcycleevent.cache.posts.model.MediaCacheModel
 
 @Dao
 interface MediaDao {
