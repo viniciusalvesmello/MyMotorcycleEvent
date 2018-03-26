@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "438768369814",
+    "firebase_url": "https://mymotorcycleevent.firebaseio.com",
+    "project_id": "mymotorcycleevent",
+    "storage_bucket": "mymotorcycleevent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438768369814:android:24245e324f6148f9",
+        "android_client_info": {
+          "package_name": "rocks.yourapp.mymotorcycleevent.mymotorcycleevent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438768369814-nlohrfj08e82o51ilongs1r4smppu8bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4Rr4aIy_UiJmsOlGe6Bd7bfaHbiUE3EI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
